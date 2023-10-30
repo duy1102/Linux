@@ -1,4 +1,4 @@
-# Getting Started with Linux Command Line
+# Khởi động với các dòng lệnh trên Linux (Linux Command Line)
 
 ## Làm thế nào để khởi động WSL của bạn?
 
@@ -21,113 +21,117 @@ Trong Ubuntu và nhiều hệ điều hành khác dựa trên Linux, thư mục 
 - Lệnh cd cho phép bạn thay đổi thư mục làm việc hiện tại sang một thư mục được chỉ định. 
 - Bạn luôn cần chú ý đến thư mục làm việc của mình
 
-### To change to a specific directory 
-- You can use the ***cd*** command  followed by the path to the directory you want to navigate to (get into). 
+### Thực hiện lệnh để in ra thư mục home của bạn 
+- Bạn có thể sử dụng lệnh cd theo sau là đường dẫn đến thư mục bạn muốn di chuyển đến.
 
 ```bash
 cd /path/to/directory
 
 ```
 
-### To change to  to the Home Directory
--  You can use cd without any arguments to quickly return to your home directory. 
+### Để chuyển đến Thư mục Home
+-  Bạn có thể sử dụng cd mà không có bất kỳ đối số nào để nhanh chóng quay lại thư mục home của bạn. 
 
 ```bash
 cd 
 
 ```
 
-### Navigating within the directory using the relative path
+### Điều hướng trong thư mục bằng đường dẫn tương đối
 
-- When your directories or files are located within the same directory, you can use **relative paths**tree to efficiently navigate up or down the directory tree from your current location.
-- `cd ..` moves up one level back (towards the parent directory).
-- `cd foldername` moves into a directory named "foldername" in your current location.
+- Khi các thư mục hoặc tệp của bạn nằm trong cùng một thư mục, bạn có thể sử dụng **đường dẫn tương đối** để di chuyển lên hoặc xuống cây thư mục từ vị trí hiện tại của bạn
+- `cd ..` di chuyển lên một cấp (tới thư mục cha)..
+- `cd foldername` di chuyển vào một thư mục có tên "tên_thư_mục" ở vị trí hiện tại của bạn.
 
-### Using Tilde (~) Shortcut
+### Sử dụng dấu ngã - Tilde (~) Shortcut
 
-You can also use the tilde (~) as a shortcut to represent your home directory. 
+Bạn cũng có thể sử dụng dấu ngã (~) như một phím tắt để đại diện cho thư mục home của bạn. 
 
 ```bash
 cd ~
 ```
 
-### Navigating between directories using the absolute path
-Learn to navigate between directories using the absolute path.
+### Di chuyển giữa các thư mục bằng đường dẫn tuyệt đối
 
-## Creating a new Directory (MKDIR)
+Học cách di chuyển giữa các thư mục bằng đường dẫn tuyệt đối.
 
-You task is to create a couple of directories in your home folder. 
+## Tạo một Thư mục mới (MKDIR)
 
-### Creating Multiple Directories with MKDIR
-Your task is to create multiple directories at least 3 with a single mkdir command.
+Nhiệm vụ của bạn là tạo một vài thư mục trong thư mục home của bạn. 
 
-### Creating a text file with a nano text editor. 
+----------------------------------------------------------------------
+## Bài thực hành 
 
-Your task is to create 3 text files using a text editor. You can write something in your text file. You can create these text files into any of the directory that you have created above. Remember how to save the file using nano. 
-## Understanding the path (absolute & relative)
-What do you understand by absolute and relative path? Discuss with each other with examples. 
+### Tạo Nhiều Thư mục với MKDIR
+Nhiệm vụ của bạn là tạo nhiều thư mục ít nhất là 3 với một lệnh mkdir duy nhất.
 
-## Creating Files with Redirection
-Learn to use pipe sign as mentioned in the video tutorial.
+### Tạo một tệp văn bản với trình soạn thảo nano 
 
-## Some examples of using wildcard characters in Ubuntu
-Use some wild characters with ls commands and get familiar with wildcard characters. 
+Nhiệm vụ của bạn là tạo 3 tệp văn bản bằng trình soạn thảo văn bản. Bạn có thể viết gì đó trong tệp văn bản của mình. Bạn có thể tạo các tệp văn bản này trong bất kỳ thư mục nào bạn đã tạo ở trên. Nhớ cách lưu tệp bằng nano.
 
-## Manipulating Files & Folders
+## Hiểu về đường dẫn (tuyệt đối và tương đối)
+Bạn hiểu gì về đường dẫn tuyệt đối và tương đối? Thảo luận với nhau và có ví dụ. 
 
+## Tạo tệp với Điều hướng
+Học cách sử dụng dấu cống / dấu gạch đứng | như đã đề cập trong video hướng dẫn.
 
-### Removing an empty directory
+## Một số ví dụ về việc sử dụng ký tự đại diện trong Ubuntu
+Sử dụng một số ký tự đại diện với lệnh ls và làm quen với ký tự đại diện.
 
-Your task is remove one of the empty director which you have created above.
-
-### Removing a non-empty directory
-Your task is remove the directory that has files which you have created above with nano text editor. 
-
-## Copying a file/directory (use relative path)
-
-Create 3 text files in one of your directory and copy them to different directory.
-
-## Moving a file/directory (use absolute path)
-Create 3 text files in one of your directory and move them to different directory.
-
-## Renaming Files & Directories
-Rename a few of your files and directories. 
+## Thao tác với Tệp và Thư mục
 
 
-## Data Manipulation
+### Xóa một thư mục trống
+Nhiệm vụ của bạn là xóa một trong những thư mục trống bạn đã tạo ở trên.
 
-- Create a text file called data.txt using nano text editor. Copy some text from wikipedia ( atleast a couple of pages). 
+### Xóa một thư mục không trống
+Nhiệm vụ của bạn là xóa thư mục có tệp mà bạn đã tạo ở trên với trình soạn thảo nano. 
 
-- Use cat command to view the file's content. 
+## Sao chép một tệp/thư mục (sử dụng đường dẫn tương đối)
 
-- Use less command to display one page at a time. 
+Tạo 3 tệp văn bản trong một trong thư mục của bạn và sao chép chúng vào các thư mục khác nhau.
 
-    - Use spacebar to go to the new page. 
+## Di chuyển một tệp/thư mục (sử dụng đường dẫn tuyệt đối)Di chuyển một tệp/thư mục (sử dụng đường dẫn tuyệt đối)
+Tạo 3 tệp văn bản trong một trong thư mục của bạn và di chuyển chúng vào các thư mục khác nhau.
 
-    - Type q to quit viewing the file.
+## Đổi tên Tệp & Thư mục
+Đổi tên một số tệp và thư mục của bạn.
 
-- Use head command to view the head of the file. 
 
-- Use tail command to view into the end of the file.
+## Sửa đổi Dữ liệu
 
-- Use grep command to search something within your file
+- CTạo một tệp văn bản có tên là data.txt bằng trình soạn thảo văn bản nano. Sao chép một số văn bản từ Wikipedia (ít nhất là một vài trang).
 
-## Pipe | 
+- Sử dụng lệnh cat để xem nội dung của tệp.
 
-Learn to use pipe sign as mentioned in the video tutorial.
+- Sử dụng lệnh less để hiển thị từng trang một.
 
-## Root user
+ - Sử dụng phím cách để chuyển đến trang mới.
 
-Discuss what is a root user ?
+ - Gõ q để thoát xem tệp.
 
-## Hidden Files
+- Sử dụng lệnh head để xem phần đầu của tệp.
 
-How can you hide a file in Ubuntu? 
+- Sử dụng lệnh tail để xem vào cuối tệp.
 
-***After you have done all the above tasks, you will run the following command and create linux1.txt file in your home directory.*** 
+- Sử dụng lệnh grep để tìm kiếm một cái gì đó trong tệp của bạn.
+
+## Dấu cống / Gạch đứng (pipe) | 
+
+Học cách sử dụng dấu cống / gạch đứng như đã đề cập trong video hướng dẫn.
+
+## Người dùng Root (root user)
+
+Thảo luận về người dùng root là gì?
+
+## Tệp Ẩn
+
+Làm thế nào bạn có thể ẩn một tệp trong Ubuntu?
+
+***Sau khi bạn đã hoàn thành tất cả các nhiệm vụ trên, bạn sẽ chạy lệnh sau và tạo tệp linux1.txt trong thư mục home của bạn.*** 
 
 ```bash
 history >linux1.txt
 ```
 
-**Type explorer.exe . in your terminal and you will see the file linux1.txt**
+**Gõ "explorer.exe ." trong terminal và bạn sẽ thấy tệp linux1.txt**
