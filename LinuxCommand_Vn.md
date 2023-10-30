@@ -1,24 +1,25 @@
 # Getting Started with Linux Command Line
 
-## How to start your WSL? 
+## Làm thế nào để khởi động WSL của bạn?
 
-Open Ubuntu by simply searching 'Ubuntu' in your Windows search bar and clicking on the Ubuntu app. Once opened, you'll have access to the terminal where you can enter your commands.
+Mở Ubuntu bằng cách đơn giản là tìm kiếm 'Ubuntu' trong thanh tìm kiếm Windows của bạn và nhấp vào ứng dụng Ubuntu. Khi mở, bạn sẽ có quyền truy cập vào terminal nơi bạn có thể nhập các lệnh của mình.
 
-# Your Home folder in Ubuntu
-
-In Ubuntu and many other Linux-based operating systems, the "Home folder" or "home directory" is a central location on your system where each user has their own dedicated storage space for personal files, documents, configuration files, and settings. 
-
-**You can access your home directory using the "~" (tilde) notation.**
-
-### Execute the command to print your home directory. 
+# Thư mục Home của bạn trong Ubuntu
 
 
+Trong Ubuntu và nhiều hệ điều hành khác dựa trên Linux, thư mục "Home folder" hay "home directory" là một vị trí trung tâm trên hệ thống của bạn, nơi mỗi người dùng có không gian lưu trữ riêng biệt cho các tệp cá nhân, tài liệu, tệp cấu hình và cài đặt
 
-## What is **CD** command? 
-- The "cd" command, short for "change directory," is a fundamental tool in command-line interfaces like the Linux terminal and Windows Command Prompt. 
-- Its primary function is to facilitate seamless navigation between directories or folders within a file system.
-- The cd command allows you to change your current working directory to a specified directory. 
-- You always need to pay attention to your working directory.
+**Bạn có thể truy cập thư mục home của mình bằng cách sử dụng ký hiệu "~" (dấu ngã).**
+
+### Thực hiện lệnh để in ra thư mục home của bạn. 
+
+
+
+## Lệnh **CD** là gì? 
+- Lệnh "cd" (rút gọn của "change directory") là một công cụ cơ bản trong giao diện dòng lệnh như terminal Linux và Windows Command Prompt.
+- Chức năng chính của nó là hỗ trợ điều hướng mượt mà giữa các thư mục hoặc thư mục trong hệ thống tệp.
+- Lệnh cd cho phép bạn thay đổi thư mục làm việc hiện tại sang một thư mục được chỉ định. 
+- Bạn luôn cần chú ý đến thư mục làm việc của mình
 
 ### To change to a specific directory 
 - You can use the ***cd*** command  followed by the path to the directory you want to navigate to (get into). 
